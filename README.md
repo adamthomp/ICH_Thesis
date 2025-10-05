@@ -6,18 +6,18 @@ The project focuses on creating an automated platform capable of positioning sen
 Repository Contents
 
 MATLAB / Simulink Files
-Inv_Testing_v6.slx 
+Inv_Testing_v6.slx -
   Main Simulink program that executes the motion sequence between predefined points.
   Used as the central control loop coordinating system behavior.
-quick_setup_v2.mat
+quick_setup_v2.mat -
   Initialization file that defines and sets up required variables for the main program.
   Must be loaded prior to running Inv_Testing_v6.slx.
 
 Python Scripts
-screen_trigger_capture_v1.py
+screen_trigger_capture_v1.py - 
   Monitors the main program state and captures images from the connected camera when the system enters the hold state.
   Useful for synchronizing vision data with mechanical movement.
-laser_centroid_calib.py
+laser_centroid_calib.py - 
   Performs centroid detection of a laser pointer in captured images and calibrates the camera against known reference coordinates.
   Returns a list of detected centroids and their distances relative to the desired position, expressed in millimeters.
 
