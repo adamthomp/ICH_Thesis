@@ -40,3 +40,5 @@ Requirements
 	•	Python 3.9+ with the following libraries:
 	•	opencv-python
 	•	numpy
+
+Link to CAD File: https://a360.co/48yWQNR 
